@@ -13,7 +13,6 @@ public class Presentation2 {
         Scanner scanner=new Scanner(new File("config.txt"));
 
         //Instanciation dynamique
-
         String daoClassName=scanner.nextLine();
         Class cDao=Class.forName(daoClassName);
         IDao dao = (IDao) cDao.newInstance(); //classcatchExeption
@@ -26,6 +25,5 @@ public class Presentation2 {
         Method method=cMetier.getMethod("setDao",IDao.class);
         method.invoke(metier,dao);
         System.out.println(metier.calcul());
-
     }
 }
