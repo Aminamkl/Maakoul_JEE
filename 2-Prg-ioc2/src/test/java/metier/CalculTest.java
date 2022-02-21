@@ -13,5 +13,6 @@ public class CalculTest {
         double expected=14;
         double res=calcul.somme(a,b);
         Assert.assertTrue(res==expected);
+        System.out.println("ok");
     }
 }
