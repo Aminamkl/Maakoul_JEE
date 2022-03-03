@@ -1,29 +1,24 @@
 package ma.enset.prgjpa.entities;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
+@Data @NoArgsConstructor @AllArgsConstructor
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(length=50)
     private String nom;
     @Temporal(TemporalType.DATE)
     private Date date_naiss;
     private boolean malade;
     private int score;
-
-    public Patient() {
-    }
-
-    public Patient(Long id, String nom, Date date_naiss, boolean malade, int score) {
-        this.id = id;
-        this.nom = nom;
-        this.date_naiss = date_naiss;
-        this.malade = malade;
-        this.score = score;
-    }
 
     public Long getId() {
         return id;
