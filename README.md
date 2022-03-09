@@ -6,4 +6,4 @@ Activité 2 / 2-Prg-ioc2 (IOC Spring) : https://github.com/Aminamkl/Maakoul_JEE/
 
 Activité 3 / Prg-jpa (Spring Data) : https://github.com/Aminamkl/Maakoul_JEE/blob/master/Prg-jpa/Compte%20rendu.pdf
 
-Activité 4 / hospital (Mapping des associations en JPA Hibernate Spring Data) : 
+Activité 4 / hospital (Mapping des associations en JPA Hibernate Spring Data) : https://github.com/Aminamkl/Maakoul_JEE/blob/master/hospital/Compte%20rendu.pdf
