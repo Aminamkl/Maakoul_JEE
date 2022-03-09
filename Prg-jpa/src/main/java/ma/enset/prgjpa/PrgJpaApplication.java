@@ -40,14 +40,14 @@ public class PrgJpaApplication implements CommandLineRunner {
         System.out.println("Total element :"+patients.getTotalElements());
         System.out.println("Numero du page :"+patients.getNumber());
         List<Patient> content = patients.getContent();
-        */
+
         //Page<Patient> byMalade = patientRepository.findByMalade(true, PageRequest.of(0,5));
         //List<Patient> patientList=patientRepository.findByMaladeIsTrueAndScoreLessThan(40);
         List<Patient> patientList=patientRepository.chercherPatients("%h%",40);
         patientList.forEach(p->{
             System.out.println("["+p.getId()+" , "+p.getNom()+" , "+p.isMalade()+" , "+p.getScore()+" , "+p.getDate_naiss()+"]");
         });
-
+      */
         System.out.println("********************************");
 
         Patient patient=patientRepository.findById(1L).orElse(null);
