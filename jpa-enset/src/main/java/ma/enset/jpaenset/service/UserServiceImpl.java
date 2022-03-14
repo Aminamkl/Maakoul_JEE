@@ -23,7 +23,6 @@ public class UserServiceImpl implements UserService {
         String pw=user.getPassword();
         return userRepository.save(user);
     }
-
     @Override
     public Role addNewRole(Role role) {
         return roleRepository.save(role);
@@ -33,7 +32,6 @@ public class UserServiceImpl implements UserService {
     public User findUserByUserName(String userName) {
         return userRepository.findByUsername(userName);
     }
-
     @Override
     public Role findRoleByRoleName(String roleName) {
 
@@ -48,10 +46,7 @@ public class UserServiceImpl implements UserService {
             user.getRoles().add(role);
             role.getUsers().add(user);
         }
-
-
     }
-
     @Override
     public User authentificate(String userName, String password) {
         User user=userRepository.findByUsername(userName);

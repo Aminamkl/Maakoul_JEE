@@ -21,7 +21,7 @@ public class JpaEnsetApplication {
     @Bean
     CommandLineRunner start(UserService userService){
         return args ->{
-            /*User u  = new User();
+            User u  = new User();
             u.setUsername("user1"); u.setPassword("123456");
             userService.addNewUser(u);
 
@@ -50,7 +50,7 @@ public class JpaEnsetApplication {
                 });
             }catch (Exception exception){
 
-            }*/
+            }
         };
     }
 
