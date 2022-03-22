@@ -1,4 +1,4 @@
-package ma.enset.hospital.entities;
+package ma.enset.patientmvc.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,7 +17,8 @@ public class Patient {
     @Temporal(TemporalType.DATE)
     private Date dateNaissance;
     private boolean malade;
-    @OneToMany(mappedBy = "patient", fetch = FetchType.LAZY)
-    private Collection<RendezVous> rendezVous;
+    private int score;
+    //@OneToMany(mappedBy = "patient", fetch = FetchType.LAZY)
+    //private Collection<RendezVous> rendezVous;
 
 }
