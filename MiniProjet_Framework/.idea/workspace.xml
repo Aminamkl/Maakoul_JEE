@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0999e94-6c99-41a8-a261-1c2fcc7b21c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Mini projet/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini projet/src/annotations/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini projet/src/annotations/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini projet/src/annotations/Qualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini projet/src/dao/DaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini projet/src/dao/IDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini projet/src/ext/DaoImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini projet/src/ext/DaoImplVWS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mini projet/src/framework/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/Autowired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/Qualifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/InjectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/framework/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metier/IMetier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/metier/MetierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pres/Presenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1#Prg_ioc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1#Prg_ioc/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mini projet/src/metier/IMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini projet/src/metier/IMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mini projet/src/metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mini projet/src/metier/MetierImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../patient-mvc/src/main/java/ma/enset/patientmvc/sec/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patient-mvc/src/main/java/ma/enset/patientmvc/sec/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../patient-mvc/src/main/resources/templates/template1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../patient-mvc/src/main/resources/templates/template1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pres/Pres_XML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pres/Presenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pres/Pres_Annotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +49,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="framework" />
       <recent name="pres" />
+      <recent name="framework" />
       <recent name="annotations" />
       <recent name="metier" />
     </key>
@@ -91,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648491967775</updated>
       <workItem from="1648491969214" duration="183000" />
-      <workItem from="1648492258123" duration="741000" />
+      <workItem from="1648492258123" duration="1129000" />
     </task>
     <servers />
   </component>
