@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
       layout:decorate="template1">
 <head>
     <meta charset="UTF-8">
@@ -11,9 +10,13 @@
 <div layout:fragment="content1">
 <div class="container m-2">
     <div class="card">
-        <div class="card-header">Saisie d'un patient</div>
+        <div class="card-header">Modifier un patient</div>
         <div class="card-body">
-                <form th:action="@{/admin/save}" method="POST">
+                <form th:action="@{/admin/save(page=${page},keyword=${keyword})}" method="POST">
+                    <div class="mb-3">
+                        <label class="form-label" >ID</label>
+                        <label class="form-label" th:text="${patient.id}"></label>
+                    </div>
                         <div class="mb-3">
                             <label class="form-label" >Nom</label>
                             <div class="controls">
