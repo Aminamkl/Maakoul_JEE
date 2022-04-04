@@ -64,7 +64,7 @@ public class PatientController {
     }
 
     @GetMapping("/admin/editPatient")
-    public String editPatient(Model model, long id,String keyword, int page){
+    public String editPatient(Model model, Long id,String keyword, int page){
         Patient patient=patientRepository.findById(id).orElse(null);
         if(patient==null) throw new RuntimeException("Patient introuvable");
         model.addAttribute("patient",patient);

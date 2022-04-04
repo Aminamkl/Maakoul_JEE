@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0999e94-6c99-41a8-a261-1c2fcc7b21c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pres/Pres_XML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pres/Presenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pres/Pres_Annotation.java" afterDir="false" />
-    </list>
+    <list default="true" id="c0999e94-6c99-41a8-a261-1c2fcc7b21c7" name="Changes" comment="edit2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -64,8 +60,16 @@
       <option name="presentableId" value="Default" />
       <updated>1648491967775</updated>
       <workItem from="1648491969214" duration="183000" />
-      <workItem from="1648492258123" duration="1129000" />
+      <workItem from="1648492258123" duration="1163000" />
     </task>
+    <task id="LOCAL-00001" summary="edit2">
+      <created>1648493415284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648493415284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +86,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit2" />
   </component>
 </project>
