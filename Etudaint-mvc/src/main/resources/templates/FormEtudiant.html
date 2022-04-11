@@ -56,9 +56,9 @@
 
                     <div class="mb-3">
                         <label class="form-label" >Genre</label>
-                        <select class="form-select" >
-                            <option name="genre" th:value="${etudiant.genre}">FEMININ</option>
-                            <option name="genre" th:value="${etudiant.genre}">MASCULIN</option>
+                        <select class="form-select" th:field="*{etudiant.genre}" >
+                            <option th:value="'FEMININ'">FEMININ</option>
+                            <option th:value="'MASCULIN'">MASCULIN</option>
                         </select>
                         <span class="text-danger" th:errors="${etudiant.genre}"></span>
                     </div>
