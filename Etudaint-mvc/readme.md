@@ -1,3 +1,5 @@
+Démonstration du site WEB : 
+
 La page Login
 ![image](https://user-images.githubusercontent.com/52087288/164979081-ac131f3f-aa83-4ebf-9b2c-e27be5fa6541.png)
 
@@ -9,7 +11,7 @@ La recherche dans les étudiants
 ![2](https://user-images.githubusercontent.com/52087288/164990584-b496f836-ee80-4433-a28c-59061e5d69e7.PNG)
 
 
-La supression d'un étudiant
+La supression d'étudiant "Karam Ahmed"
 ![image](https://user-images.githubusercontent.com/52087288/164979916-5270d089-011f-4908-b65a-14cff64e7c36.png)
 Aprés la supression
 ![3](https://user-images.githubusercontent.com/52087288/164990621-4f31f6ca-745f-4a57-b305-68b7ce1df775.PNG)
