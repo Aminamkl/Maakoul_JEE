@@ -1,3 +1,14 @@
+I- Introduction:
+Cet activité pratique est une application Web basée sur Spring MVC, Spring Data JPA et Spring Security qui permet de gérer des étudiants. L'application propose des fonctionnalités suivantes:
+  - Chercher des étudiants par nom
+  - Faire la pagination
+  - Supprimer des étudiants en utilisant la méthode (DELETE au lieu de GET)
+  - Saisir et Ajouter des étudiants avec validation des formulaires
+  - Editer et mettre à jour des étudiants
+  - Créer une page template 
+  - Sécuriser l'accès à l'application avec un système d'authentification basé sur Spring security en utilisant la stratégie UseDetails Service
+
+II- Présentation d'application:
 
 La page Login
 ![image](https://user-images.githubusercontent.com/52087288/164979081-ac131f3f-aa83-4ebf-9b2c-e27be5fa6541.png)
