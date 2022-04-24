@@ -1,4 +1,5 @@
 I- Introduction:
+
 Cet activité pratique est une application Web basée sur Spring MVC, Spring Data JPA et Spring Security qui permet de gérer des étudiants. L'application propose des fonctionnalités suivantes:
   - Chercher des étudiants par nom
   - Faire la pagination
