@@ -15,7 +15,10 @@
                 <form th:action="@{/admin/save(page=${page},keyword=${keyword})}" method="POST">
                     <div class="mb-3">
                         <label class="form-label" >ID</label>
-                        <label class="form-label" th:text="${etudiant.id}"></label>
+                        <!--<label class="form-label" name="id" th:text="${etudiant.id}"></label>-->
+                        <div class="controls">
+                            <input type="text" name="id" th:value="${etudiant.id}" class="form-control" readonly>
+                        </div>
                     </div>
                         <div class="mb-3">
                             <label class="form-label" >Nom</label>

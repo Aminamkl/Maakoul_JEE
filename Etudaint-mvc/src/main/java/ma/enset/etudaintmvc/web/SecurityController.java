@@ -10,7 +10,7 @@ public class SecurityController {
         return "/403";
     }
 
-    @GetMapping("/auth")
+    @GetMapping("/login")
     public String login(){
         return "login";
     }
