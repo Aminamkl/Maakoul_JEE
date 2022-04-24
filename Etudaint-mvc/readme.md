@@ -8,6 +8,7 @@ Cet activité pratique est une application Web basée sur Spring MVC, Spring Dat
   - Editer et mettre à jour des étudiants
   - Créer une page template 
   - Sécuriser l'accès à l'application avec un système d'authentification basé sur Spring security en utilisant la stratégie UseDetails Service
+  
 
 II- Présentation d'application:
 
