@@ -1,5 +1,7 @@
 package ma.maakoul.ebankingbackend;
 
+import ma.maakoul.ebankingbackend.dtos.AccountDTO;
+import ma.maakoul.ebankingbackend.dtos.CustomerDTO;
 import ma.maakoul.ebankingbackend.entities.*;
 import ma.maakoul.ebankingbackend.enums.AccountStatus;
 import ma.maakoul.ebankingbackend.enums.OperationType;
@@ -31,7 +33,7 @@ public class EbankingBackendApplication {
     CommandLineRunner commandLineRunner(BankAccountService bankAccountService){
         return args -> {
             Stream.of("Amina", "Hasnaa", "Achraf").forEach(name->{
-                Customer client = new Customer();
+                CustomerDTO client = new CustomerDTO();
                 client.setName(name);
                 client.setEmail(name+"@gmail.com");
                 bankAccountService.saveCustomer(client);
@@ -40,8 +42,8 @@ public class EbankingBackendApplication {
                 try {
                     bankAccountService.saveCurrentBankAccount(Math.random()*90000, 9000, client.getId());
                     bankAccountService.saveSavingBankAccount(Math.random()*120000, 5.5, client.getId());
-                    List<BankAccount> accounts = bankAccountService.bankAccountList();
-                    for (BankAccount account:accounts){
+                    List<AccountDTO> accounts = bankAccountService.bankAccountList();
+                    for (AccountDTO account:accounts){
                         for (int i = 0; i < 10; i++) {
                             bankAccountService.credit(account.getId(), 10000+Math.random()*120000, "Credit");
                             bankAccountService.debit(account.getId(), 1000+Math.random()*9000, "Debit");

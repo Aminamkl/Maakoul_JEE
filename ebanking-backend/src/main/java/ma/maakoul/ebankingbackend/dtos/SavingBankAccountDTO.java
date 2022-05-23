@@ -12,4 +12,5 @@ import javax.persistence.DiscriminatorValue;
 @NoArgsConstructor @AllArgsConstructor
 public class SavingBankAccountDTO extends AccountDTO {
     private double interestRate;
+    private CustomerDTO customerDTO;
 }

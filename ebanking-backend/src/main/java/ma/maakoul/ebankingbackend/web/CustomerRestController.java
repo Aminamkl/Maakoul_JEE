@@ -4,8 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import ma.maakoul.ebankingbackend.dtos.CustomerDTO;
 import ma.maakoul.ebankingbackend.services.BankAccountService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -20,8 +19,14 @@ public class CustomerRestController {
         return bankAccountService.listCustomer();
     }
 
-    //@GetMapping("/customers/{id}")
+    @GetMapping("/customers/{id}")
+    public CustomerDTO getCustomer(@PathVariable(name = "id") Long coustomerId){
+        return bankAccountService.getCustomer(coustomerId);
+    }
 
-    //@PutMapping("/customers/{customerId}")
+    @PostMapping("/customers")
+    public CustomerDTO saveCustomer(@RequestBody CustomerDTO customerDTO){
+       return bankAccountService.saveCustomer(customerDTO);
+    }
 
 }

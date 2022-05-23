@@ -10,6 +10,7 @@ import javax.persistence.DiscriminatorValue;
 @DiscriminatorValue("CA")
 @Data
 @NoArgsConstructor @AllArgsConstructor
-public class CurrentBankAccountDTO extends BankAccount{
+public class CurrentBankAccountDTO extends AccountDTO{
     private double overDraft;
+    private CustomerDTO customerDTO;
 }
